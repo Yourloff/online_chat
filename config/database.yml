@@ -21,7 +21,7 @@ test:
   database: db/test.sqlite3
 
 production:
-  adapter: <%= ENV['postgresql'] %>
-  user: <%= ENV['deploy'] %>
-  password: <%= ENV['deploy'] %>
-  database: <%= ENV['myapp'] %>
+  adapter: <%= ENV['ADAPTER_DB'] %>
+  user: <%= ENV['USER_DB'] %>
+  password: <%= ENV['PASSWORD_DB'] %>
+  database: <%= ENV['DATABASE'] %>
