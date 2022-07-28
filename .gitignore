@@ -40,6 +40,8 @@ yarn-debug.log*
 .yarn-integrity
 
 config/secrets.yml.key
+config/secrets.yml
+config/database.yml
 
 .idea
 .env
