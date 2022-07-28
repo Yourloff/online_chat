@@ -42,3 +42,4 @@ yarn-debug.log*
 config/secrets.yml.key
 
 .idea
+.env
