@@ -1,0 +1,6 @@
+production:
+  adapter: postgresql
+  user: deploy
+  password: deploy
+  database: myapp
+  
